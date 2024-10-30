@@ -5,7 +5,7 @@ const home = () => {
         <>
         <h1>Home</h1>
         <p>
-            componet
+            component Home
         </p>
         </>
     )
