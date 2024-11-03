@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +24,24 @@ function App() {
 }
 
 export default App;
+=======
+import Header from './component/Header'
+import Home from './component/Home'
+import Footer from './component/Footer'
+
+
+
+const App = () => {
+  const cnvaapp= "Hello (App)"
+  return (
+    <div>
+      <h1>{cnvaapp}</h1>
+      <Header/>
+      <Home/>
+      <Footer/>
+    </div>
+  );
+};
+
+export default App;
+>>>>>>> 75d7a7d91fd7bdd106319a118df2cfbb777dd608
