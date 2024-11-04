@@ -1,11 +1,9 @@
+const Logo = ({ text }) => {
+  return (
+    <div>
+      <h2>{text}</h2>
+    </div>
+  );
+};
 
-const Header = () => {
-    const CNVAfooter= "Hello (Header)"
-    return (
-      <div>
-        <h2>{CNVAfooter}</h2>
-      </div>
-    );
-  };
-  
-export default Header;
+export default Logo;
