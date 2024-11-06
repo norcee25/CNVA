@@ -2,8 +2,6 @@ import Header from './component/Header'
 import Home from './component/Home'
 import Footer from './component/Footer'
 
-
-
 const App = () => {
   const cnvaapp= "Hello (App)"
   return (
@@ -16,4 +14,6 @@ const App = () => {
   );
 };
 
+
 export default App;
+
