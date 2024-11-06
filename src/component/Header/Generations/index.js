@@ -13,5 +13,4 @@ const Generation = ({ text }) => {
     </div>
   );
 };
-
 export default Generation;
